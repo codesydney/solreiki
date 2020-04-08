@@ -65,7 +65,7 @@ html {
 /* Base styles */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
@@ -74,7 +74,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   text-align: center;
 }
@@ -156,8 +156,9 @@ img {
   }
   
   .home-section-header > h2 {
-    font-size: 6rem;
-    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 18rem;
+    color: #CAE168;
   }
   
   @media (max-width: 28.75em) {
@@ -167,8 +168,22 @@ img {
     }
   }
   
+  .home-section-header > h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #000000;
+  }
+  
+  @media (max-width: 28.75em) {
+    .home-section-header > h3 {
+      font-size: 2rem;
+      color: #000000;
+    }
+  }
+
   .home-section-header > p {
     font-style: italic;
+    color: #000000;
   }
   
   .home-links {
