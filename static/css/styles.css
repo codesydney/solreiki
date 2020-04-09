@@ -157,8 +157,9 @@ img {
   
   .home-section-header > h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 18rem;
-    color: #CAE168;
+    font-size: 14rem;
+    /* color: #CAE168; */
+    color: #000000;
   }
   
   @media (max-width: 28.75em) {
