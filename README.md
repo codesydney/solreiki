@@ -8,7 +8,8 @@
 [Website Content Document Location](https://drive.google.com/file/d/1WEFu9kTbXuF4rlGH-KcS2i7Ea_KDDrT4/view?usp=sharing)
 
 ## B. Project Status
-| Date          | What                                                           |
-| ------------- |:---------------------------------------------------------------|
-| 2 Apr 2020    | Project KickOff Meeting                                        |
-| 7 Apr 2020    | SolReiki provided wireframe and website content|
+| Date          | What                                                           |Who|
+| ------------- |:---------------------------------------------------------------|---|
+| 2 Apr 2020    | Project KickOff Meeting                                        |Team|
+| 7 Apr 2020    | SolReiki provided wireframe and website content                |SolReiki|  
+| 9 Apr 2020    | GitHub Wiki/ReadMe preparation                                 |Code.Sydney|  
