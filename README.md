@@ -2,7 +2,7 @@
 
 ## A. Requirements Specification
 #### A.1 Wireframe (Provided by SolReiki) and Task Assignments
-[Click to this to see the Wireframe](https://github.com/codesydney/solreiki/wiki/SolReiki-Wireframe)
+[Click this to see the Wireframe](https://github.com/codesydney/solreiki/wiki/SolReiki-Wireframe)
 <br/>
 | Task                          | Who              |
 | ----------------------------- |:-----------------|
