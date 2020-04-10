@@ -25,9 +25,4 @@
 | Date          | What                                                           |Who|
 | ------------- |:---------------------------------------------------------------|---|
 | 2 Apr 2020    | Project KickOff Meeting                                        |Team|
-| 7 Apr 2020    | SolReiki provided wireframe and website content                |SolReiki|  
-<<<<<<< HEAD
-| 9 Apr 2020    | GitHub Wiki/ReadMe preparation                                 |Code.Sydney|  
-=======
-| 9 Apr 2020    | GitHub Project Preparation                                     |Code.Sydney|  
->>>>>>> aff4c6cc13c74e7f51722eb9b7d5bdb7509e0960
+| 7 Apr 2020    | SolReiki provided wireframe and website content                |SolReiki|
