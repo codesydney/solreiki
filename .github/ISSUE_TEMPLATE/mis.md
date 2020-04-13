@@ -1,7 +1,7 @@
 ---
 name: MIS
 about: Miscellaneous
-title: MIS
+title: "[MIS] "
 labels: ''
 assignees: ''
 

@@ -1,7 +1,7 @@
 ---
 name: STY
 about: All about styling
-title: STY
+title: "[STY] "
 labels: ''
 assignees: ''
 

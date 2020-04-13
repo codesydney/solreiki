@@ -1,7 +1,7 @@
 ---
 name: CON
 about: All about content
-title: CON
+title: "[CON] "
 labels: ''
 assignees: ''
 
