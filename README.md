@@ -27,3 +27,4 @@
 | 2 Apr 2020    | Project KickOff Meeting                                        |Project Team|
 | 7 Apr 2020    | SolReiki provided wireframe and website content                |SolReiki|  
 | 9 Apr 2020    | GitHub Project Preparation                                     |Code.Sydney|  
+| 13 Apr 2020   | Established the PR(ie. Change submission) process              |Code.Sydney|  
