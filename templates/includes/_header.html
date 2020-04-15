@@ -2,13 +2,13 @@
     <nav>
         <ul>
             <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="#">Treatments</a></li>
-            <li><a href="#">Practitioners</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Reiki FAQs</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="{{ url_for('treatments') }}">Treatments</a></li>
+            <li><a href="{{ url_for('practitioners') }}">Practitioners</a></li>
+            <li><a href="{{ url_for('testimonials') }}">Testimonials</a></li>
+            <li><a href="{{ url_for('events') }}">Events</a></li>
+            <li><a href="{{ url_for('blog') }}">Blog</a></li>
+            <li><a href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
             <li><a href="{{ url_for('contact') }}">Contact</a></li>
         </ul>
     </nav>
