@@ -1,5 +1,21 @@
 {% extends 'layout.html' %}
 {% block content %}
-    <section id="contact">
-    </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div>
+        <h1>Get In Touch</h1>
+    </div>
+    <div>
+        <form data-bss-recipient="50e723e2d34f5df51ec3ded43a1838ce" method="POST" action="/">
+            <input type="text" class="form-control" placeholder="Name" name="name" required>
+            <input type="email" class="form-control" placeholder="Email" name="email" required>
+            <textarea class="form-control" placeholder="Message" rows="5" name="message" required></textarea>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Submit</button>
+        </form>
+    </div>
+  </section>
+
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/smart-forms.min.js"></script>
+  <!-- Contact Ends -->
 {% endblock content %}
