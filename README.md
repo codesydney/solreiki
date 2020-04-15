@@ -16,7 +16,7 @@
 |Page 6: Blog                   | TBA              |
 |Page 7: Reiki FAQs             | TBA              |
 |Page 8: About                  | TBA              |
-|Page 9: Contact                | TBA              |
+|Page 9: Contact                | Engramar         |
 
 #### A.2 Website Content (Provided by SolReiki)
 [Click this to see the Website Content Document Location](https://drive.google.com/file/d/1WEFu9kTbXuF4rlGH-KcS2i7Ea_KDDrT4/view?usp=sharing)
@@ -26,5 +26,7 @@
 | ------------- |:---------------------------------------------------------------|---|
 | 2 Apr 2020    | Project KickOff Meeting                                        |Project Team|
 | 7 Apr 2020    | SolReiki provided wireframe and website content                |SolReiki|  
-| 9 Apr 2020    | GitHub Project Preparation                                     |Code.Sydney|  
-| 13 Apr 2020   | Established the PR(ie. Change submission) process              |Code.Sydney|  
+| 9 Apr 2020    | GitHub Project Preparation                                     |Engramar|  
+| 13 Apr 2020   | Established the PR(ie. Change submission) process              |Engramar|  
+| 15 Apr 2020   | Simplified template for easier modification                    |Engramar|  
+| 15 Apr 2020   | Started working on minor pages to assist the team              |Engramar|

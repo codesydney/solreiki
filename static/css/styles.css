@@ -1,7 +1,13 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 body {
   margin:0;
   font-family: 'Playfair Display', serif;     
-  display: grid;
+  /*display: grid;*/
 }
 a { text-decoration: none; }
 ul { 
@@ -26,13 +32,26 @@ header {
 
 section#hero{
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  border-top: 50px solid rgb(255, 255, 255);
 }
 
 #herocontent h1{
   color: rgb(24, 27, 24);
   font-size: 180px;
+}
+
+section#contact{
+  display: flex;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 25px;
 }
