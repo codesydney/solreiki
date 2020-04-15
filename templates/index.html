@@ -1,31 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="static/css/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Treatments</a></li>
-                <li><a href="#">Practitioners</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Reiki FAQs</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+{% extends 'layout.html' %}
+
+{% block content %}
     <section id="hero">
         <div id="herocontent">
             <h1>SolReiki</h1>
         </div>        
     </section>
-</body>
-</html>
+{% endblock content %}
