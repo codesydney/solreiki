@@ -1,18 +1,28 @@
 <header>
-    <nav>
-        <ul class="nav">
-            <li class="navlink"><a href="{{ url_for('index') }}">Home</a></li>
-            <li class="navlink"><a href="{{ url_for('treatments') }}">Treatments</a></li>
-            <li class="navlink"><a href="{{ url_for('practitioners') }}">Practitioners</a></li>
-            <li class="navlink"><a href="{{ url_for('testimonials') }}">Testimonials</a></li>
-            <li class="navlink"><a href="{{ url_for('events') }}">Events</a></li>
-            <li class="navlink"><a href="{{ url_for('blog') }}">Blog</a></li>
-            <li class="navlink"><a href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
-            <li class="navlink"><a href="{{ url_for('about') }}">About</a></li>
-            <li class="navlink"><a href="{{ url_for('contact') }}">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ url_for('index') }}">SolReiki</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active px-2"><a href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('treatments') }}">Treatments</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('practitioners') }}">Practitioners</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('testimonials') }}">Testimonials</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('events') }}">Events</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('blog') }}">Blog</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('about') }}">About</a></li>
+                <li class="nav-item px-2"><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                <button type="button" class="btn btn-warning mx-2">Book now</button>
+            </form>
+        </div>
     </nav>
-    <div class="burger">
-        <i class="fas fa-bars"></i>
-    </div>
 </header>
