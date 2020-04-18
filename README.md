@@ -30,3 +30,5 @@
 | 13 Apr 2020   | Established the PR(ie. Change submission) process              |Engramar|  
 | 15 Apr 2020   | Simplified template for easier modification                    |Engramar|  
 | 15 Apr 2020   | Started working on minor pages to assist the team              |Engramar|
+| 17 Apr 2020   | Contact page completed                                         |Engramar|
+| 18 Apr 2020   | Established interim look-and-feel                              |Engramar|
