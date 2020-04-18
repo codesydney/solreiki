@@ -9,7 +9,7 @@
 }
 
 .navbar--apple {
-  background-color: #535552 !important;
+  background-color: #a7b69f !important;
 }
 
 .navbar--apple .navbar-toggler {
@@ -38,4 +38,3 @@
     border-bottom: 1px solid rgba(255,255,255,0.1);
   }
 }
-

@@ -1,7 +1,9 @@
 .site {
   font-family: 'Playfair Display', serif;!important;  
+  background-color: #e9ecef;
 }
 
+/* Nav bar colours */
 ul.nav li a, ul.nav li a:visited {
   color: #fff !important;
 }
