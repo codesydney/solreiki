@@ -2,18 +2,17 @@
 {% block content %}
   <!-- Contact -->
   <section id="contact">
-    <h1>Get In Touch</h1>
-    <div id="form">
-        <form data-bss-recipient="50e723e2d34f5df51ec3ded43a1838ce" method="POST" action="/">
-            <input type="text" class="form-control" placeholder="Name" name="name" required>
-            <input type="email" class="form-control" placeholder="Email" name="email" required>
-            <textarea class="form-control" placeholder="Message" rows="5" name="message" required></textarea>
-            <button type="submit" class="btn btn-primary btn-block btn-lg">Submit</button>
-        </form>
+    <div class="contact-clean">
+      <form data-bss-recipient="50e723e2d34f5df51ec3ded43a1838ce" method="POST" action="/">
+          <h2 class="text-center">Contact us</h2>
+          <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+          <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required></div>
+          <div class="form-group"><input class="form-control" type="text" name="phone" placeholder="Phone" required></div>
+          <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+          <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+      </form>
     </div>
   </section>
-
-  <script src="static/js/jquery.min.js"></script>
-  <script src="static/js/smart-forms.min.js"></script>
+  
   <!-- Contact Ends -->
 {% endblock content %}
