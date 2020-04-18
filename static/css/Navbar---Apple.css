@@ -21,8 +21,8 @@
 }
 
 .navbar--apple .navbar-toggler-icon {
-  background-image: none;
   line-height: 2rem;
+  color: #ffffff !important;
 }
 
 @media (max-width: 576px) {
