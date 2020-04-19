@@ -6,16 +6,16 @@
 <br/>
 | Task                          | Who              |Status       |
 | ----------------------------- |:-----------------|--------------
-|Page 1: Home                   | TBA              | To do       |
-|Page 1.1: COVID-19 Pop up      | TBA              | To do       |
-|Page 1.2: Home - Text Section  | TBA              | To do       |
-|Page 2: Treatments             | TBA              | To do       |
-|Page 3: Practitioners          | TBA              | To do       |
-|Page 4: Testimonials           | TBA              | To do       |
+|Page 1: Home                   | Flora            | To do       |
+|Page 1.1: COVID-19 Pop up      | Flora            | To do       |
+|Page 1.2: Home - Text Section  | Flora            | To do       |
+|Page 2: Treatments             | Julia            | To do       |
+|Page 3: Practitioners          | Julia            | To do       |
+|Page 4: Testimonials           | Julia            | To do       |
 |Page 5: Events                 | TBA              | To do       |
 |Page 6: Blog                   | TBA              | To do       |
 |Page 7: Reiki FAQs             | TBA              | To do       |
-|Page 8: About                  | TBA              | To do       |
+|Page 8: About                  | Engramar         | To do       |
 |Page 9: Contact                | Engramar         | Done        |
 
 #### A.2 Website Content (Provided by SolReiki)
