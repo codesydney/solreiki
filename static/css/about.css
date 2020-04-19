@@ -1,10 +1,107 @@
-.about-clean {
-  background: #e9ecef;
-  padding: 80px 0;
+.team-boxed {
+  color: #313437;
+  background-color: #eef4f7;
 }
 
-@media (max-width:767px) {
-  .about-clean {
-    padding: 20px 0;
+.team-boxed p {
+  color: #505e6c;
+  font-size: 15px;
+}
+
+.team-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  color: #505e6c;
+  font-size: 25px;
+}
+
+@media (max-width:737px) {
+  .team-boxed h2 {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 24px;
   }
+}
+
+.team-boxed .intro1 {
+  padding-top: 70px;
+}
+
+.team-boxed .cite1 {
+  font-size: 20px;
+}
+
+.team-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.team-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.team-boxed .content1 {
+  color: #505e6c;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.team-boxed .people {
+  padding: 50px 0;
+}
+
+.team-boxed .item {
+  text-align: left;
+}
+
+.team-boxed .item .box {
+  text-align: left;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: #505e6c;
+}
+
+.team-boxed .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.team-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+  max-width: 160px;
+}
+
+.team-boxed .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-boxed .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity: 1;
 }

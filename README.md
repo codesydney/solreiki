@@ -15,7 +15,7 @@
 |Page 5: Events                 | TBA              | To do       |
 |Page 6: Blog                   | TBA              | To do       |
 |Page 7: Reiki FAQs             | TBA              | To do       |
-|Page 8: About                  | Engramar         | To do       |
+|Page 8: About                  | Engramar         | Done        |
 |Page 9: Contact                | Engramar         | Done        |
 
 #### A.2 Website Content (Provided by SolReiki)
@@ -32,7 +32,8 @@
 | 15 Apr 2020   | Started working on minor pages to assist the team              |Engramar|
 | 17 Apr 2020   | Contact page completed                                         |Engramar|
 | 18 Apr 2020   | Established interim look-and-feel                              |Engramar|
-| 19 Apr 2020   | Check SimplyBook.me and ovatu integration                      |Engramar|
+| 20 Apr 2020   | About page completed                                           |Engramar|
+| 21 Apr 2020   | Check SimplyBook.me and ovatu integration                      |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
