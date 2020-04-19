@@ -1,0 +1,10 @@
+.blog-clean {
+  background: #e9ecef;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .blog-clean {
+    padding: 20px 0;
+  }
+}

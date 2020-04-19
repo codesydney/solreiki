@@ -32,6 +32,7 @@
 | 15 Apr 2020   | Started working on minor pages to assist the team              |Engramar|
 | 17 Apr 2020   | Contact page completed                                         |Engramar|
 | 18 Apr 2020   | Established interim look-and-feel                              |Engramar|
+| 19 Apr 2020   | Check SimplyBook.me and ovatu integration                      |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)

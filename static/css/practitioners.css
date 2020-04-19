@@ -1,0 +1,10 @@
+.practitioners-clean {
+  background: #e9ecef;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .practitioners-clean {
+    padding: 20px 0;
+  }
+}

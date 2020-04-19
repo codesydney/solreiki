@@ -1,0 +1,10 @@
+.treatments-clean {
+  background: #e9ecef;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .treatments-clean {
+    padding: 20px 0;
+  }
+}

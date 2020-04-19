@@ -1,0 +1,10 @@
+.faqs-clean {
+  background: #e9ecef;
+  padding: 80px 0;
+}
+
+@media (max-width:767px) {
+  .faqs-clean {
+    padding: 20px 0;
+  }
+}

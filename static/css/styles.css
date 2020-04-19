@@ -15,3 +15,7 @@ ul.nav li a:hover, ul.nav li a:active {
 ul.nav li.active a {
   color: #fff !important;
 }
+
+#sticky-footer {
+  flex-shrink: none;
+}

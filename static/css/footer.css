@@ -2,6 +2,7 @@
   padding: 40px 0;
   background-color: #a7b69f;
   color: #4b4c4d;
+  flex-shrink: none;
 }
 
 .footer-basic ul {
@@ -57,4 +58,3 @@
   color: #aaa;
   margin-bottom: 0;
 }
-
