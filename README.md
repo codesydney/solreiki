@@ -6,15 +6,15 @@
 <br/>
 | Task                          | Who              |Status       |
 | ----------------------------- |:-----------------|--------------
-|Page 1: Home                   | Flora            | To do       |
-|Page 1.1: COVID-19 Pop up      | Flora            | To do       |
-|Page 1.2: Home - Text Section  | Flora            | To do       |
-|Page 2: Treatments             | Julia            | To do       |
-|Page 3: Practitioners          | Julia            | To do       |
-|Page 4: Testimonials           | Julia            | To do       |
-|Page 5: Events                 | TBA              | To do       |
-|Page 6: Blog                   | TBA              | To do       |
-|Page 7: Reiki FAQs             | TBA              | To do       |
+|Page 1: Home                   | Julia            | To do       |
+|Page 1.1: COVID-19 Pop up      | Julia            | To do       |
+|Page 1.2: Home - Text Section  | Julia            | To do       |
+|Page 2: Treatments             | Engramar         | To do       |
+|Page 3: Practitioners          | Engramar         | To do       |
+|Page 4: Testimonials           | Engramar         | To do       |
+|Page 5: Events                 | Julia            | To do       |
+|Page 6: Blog                   | Julia            | To do       |
+|Page 7: Reiki FAQs             | Engramar         | To do       |
 |Page 8: About                  | Engramar         | Done        |
 |Page 9: Contact                | Engramar         | Done        |
 
@@ -33,7 +33,8 @@
 | 17 Apr 2020   | Contact page completed                                         |Engramar|
 | 18 Apr 2020   | Established interim look-and-feel                              |Engramar|
 | 20 Apr 2020   | About page completed                                           |Engramar|
-| 21 Apr 2020   | Check SimplyBook.me and ovatu integration                      |Engramar|
+| 21 Apr 2020   | Checked SimplyBook.me and ovatu integration                    |Engramar|
+| 21 Apr 2020   | Treatment page completed                                       |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
