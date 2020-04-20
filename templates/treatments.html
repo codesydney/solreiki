@@ -1,14 +1,36 @@
 {% extends 'layout.html' %}
 {% block content %}
-  <!-- Home -->
+  <!-- Treatments -->
   <section id="treatments">
-    <div class="treatments-clean jumbotron jumbotron-fluid">
-      <div class="container col-md-4 px-0">
-        <h1 class="display-7">Treatments</h1>
-        <img src="static/img/solreiki.jpg" alt="SolReiki" class="img-fluid">
-        <p class="lead"></p>
-      </div>
+    <div class="treatments-clean">
+      <h2 class="text-center intro1">Treatments </h2>
+      <script src="//simplybook.me/v2/widget/widget.js"></script>
+      <script>
+        var widget = new SimplybookWidget({
+            "widget_type": "iframe",
+            "url": "https:\/\/codesydney.simplybook.me",
+            "theme": "space",
+            "theme_settings": {
+                "sb_base_color": "#b2c2a8",
+                "timeline_show_end_time": "0",
+                "timeline_modern_display": "as_slots",
+                "display_item_mode": "block",
+                "dark_font_color": "#474747",
+                "light_font_color": "#ffffff",
+                "sb_company_label_color": "#ffffff",
+                "hide_img_mode": "0",
+                "show_sidebar": "0",
+                "sb_busy": "#f2e0dc",
+                "sb_available": "#e0e6dd"
+            },
+            "timeline": "modern_week",
+            "datepicker": "top_calendar",
+            "is_rtl": false,
+            "app_config": {
+                "predefined": []
+            }
+        }); 
+      </script>
     </div>
-  </section>
-  <!-- Home Ends -->
+  <!-- Treatment Ends -->
 {% endblock content %}
