@@ -36,6 +36,7 @@
 | 21 Apr 2020   | Treatment page completed                                       |Engramar|
 | 21 Apr 2020   | Booking and Payment Gateway integration using SimplyBook.me    |Engramar|
 | 22 Apr 2020   | Testimonials page completed                                    |Engramar|
+| 24 Apr 2020   | Book now button added                                          |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
