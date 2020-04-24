@@ -1,21 +1,31 @@
 <header>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#menu"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="nav navbar-nav flex-grow-1 justify-content-between">
-                    <li class="nav-item d-none d-xs-block d-md-block" role="presentation"><a class="nav-link" href="#"></a></li>
-                    <li class="nav-item active px-2"><a href="{{ url_for('index') }}">Home</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('treatments') }}">Treatments</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('practitioners') }}">Practitioners</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('testimonials') }}">Testimonials</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('events') }}">Events</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('blog') }}">Blog</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('about') }}">About</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('contact') }}">Contact</a></li>
-                    <li class="nav-item px-2"><a href="{{ url_for('treatments') }}"><span style="font-size: 17px !important; color: #424242; background-color: #c9cec6; padding: 7px; border-radius: 2px;">Book now</span></a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"><a class="navbar-brand" href="{{ url_for('index') }}">SolReiki</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('treatments') }}">Treatments</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('practitioners') }}">Practitioners</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('testimonials') }}">Testimonials</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('events') }}">Events</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('blog') }}">Blog</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Reiki FAQs&nbsp;</a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="#">What is Reiki?</a>
+                            <a class="dropdown-item" role="presentation" href="#">Benefits</a>
+                            <a class="dropdown-item" role="presentation" href="#">What Reiki feels like</a>
+                            <a class="dropdown-item" role="presentation" href="#">Turn fear into love with Reiki</a>
+                            <a class="dropdown-item" role="presentation" href="#">What to expect for in-person appointments</a>
+                            <a class="dropdown-item" role="presentation" href="#">What to expect for distance healing</a>
+                            <a class="dropdown-item" role="presentation" href="#">How distance healing works</a>
+                            <a class="dropdown-item" role="presentation" href="#">Heal yourself</a>
+                            <a class="dropdown-item" role="presentation" href="#">Reiki training</a>
+                            <a class="dropdown-item" role="presentation" href="#">What does the research say</a>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
+                </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="{{ url_for('treatments') }}">Book now</a></span></div>
         </div>
     </nav>
 </header>
