@@ -14,7 +14,7 @@
 |Page 4: Testimonials           | Engramar         | Done        |
 |Page 5: Events                 | Julia            | To do       |
 |Page 6: Blog                   | Julia            | To do       |
-|Page 7: Reiki FAQs             | Engramar         | To do       |
+|Page 7: Reiki FAQs             | Engramar         | Done        |
 |Page 8: About                  | Engramar         | Done        |
 |Page 9: Contact                | Engramar         | Done        |
 
@@ -37,6 +37,7 @@
 | 21 Apr 2020   | Booking and Payment Gateway integration using SimplyBook.me    |Engramar|
 | 22 Apr 2020   | Testimonials page completed                                    |Engramar|
 | 24 Apr 2020   | Book now button added                                          |Engramar|
+| 25 Apr 2020   | FAQs page completed                                            |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
