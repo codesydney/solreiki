@@ -6,9 +6,9 @@
 <br/>
 | Task                          | Who              |Status       |
 | ----------------------------- |:-----------------|--------------
-|Page 1: Home                   | Julia            | To do       |
-|Page 1.1: COVID-19 Pop up      | Julia            | To do       |
-|Page 1.2: Home - Text Section  | Julia            | To do       |
+|Page 1: Home                   | Julia            | In progress |
+|Page 1.1: COVID-19 Pop up      | Julia            | In progress |
+|Page 1.2: Home - Text Section  | Julia            | In progress |
 |Page 2: Treatments             | Engramar         | Done        |
 |Page 3: Practitioners          | Engramar         | To do       |
 |Page 4: Testimonials           | Engramar         | Done        |
@@ -38,6 +38,7 @@
 | 22 Apr 2020   | Testimonials page completed                                    |Engramar|
 | 24 Apr 2020   | Book now button added                                          |Engramar|
 | 25 Apr 2020   | FAQs page completed                                            |Engramar|
+| 25 Apr 2020   | Julia started working on the Home page                         |Julia   |
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
