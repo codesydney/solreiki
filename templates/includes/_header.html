@@ -12,16 +12,16 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('blog') }}">Blog</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Reiki FAQs&nbsp;</a>
                         <div class="dropdown-menu" role="menu">
-                            <a class="dropdown-item" role="presentation" href="#">What is Reiki?</a>
-                            <a class="dropdown-item" role="presentation" href="#">Benefits</a>
-                            <a class="dropdown-item" role="presentation" href="#">What Reiki feels like</a>
-                            <a class="dropdown-item" role="presentation" href="#">Turn fear into love with Reiki</a>
-                            <a class="dropdown-item" role="presentation" href="#">What to expect for in-person appointments</a>
-                            <a class="dropdown-item" role="presentation" href="#">What to expect for distance healing</a>
-                            <a class="dropdown-item" role="presentation" href="#">How distance healing works</a>
-                            <a class="dropdown-item" role="presentation" href="#">Heal yourself</a>
-                            <a class="dropdown-item" role="presentation" href="#">Reiki training</a>
-                            <a class="dropdown-item" role="presentation" href="#">What does the research say</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs') }}">What is Reiki?</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section2')}}">Benefits</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section3')}}"">What Reiki feels like</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section4')}}"">Turn fear into love with Reiki</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section5')}}"">What to expect for in-person appointments</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section6')}}"">What to expect for distance healing</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section7')}}"">How distance healing works</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section8')}}"">Heal yourself</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section9')}}"">Reiki training</a>
+                            <a class="dropdown-item" role="presentation" href="{{ url_for('faqs', _anchor='section10')}}"">What does the research say</a>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
