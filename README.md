@@ -40,6 +40,7 @@
 | 25 Apr 2020   | FAQs page completed                                            |Engramar|
 | 25 Apr 2020   | Julia started working on the Home page                         |Julia   |
 | 28 Apr 2020   | Enhancements in About page                                     |Engramar|
+| 28 Apr 2020   | Ovatu integration                                              |Engramar|
 
 ## C. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
