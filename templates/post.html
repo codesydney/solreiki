@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <!-- Blog -->
+  <section id="blog">
+    <div></div>
+    <div class="article-clean">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                  <div class="intro">
+                      <h1 class="text-center">Blog</h1>
+                  </div>
+                  <div class="text"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- <div data-bs-parallax-bg="true" style="height:500px;background-image:url(static/img/sol.jpg);background-position:center;background-size:cover;"></div>-->
+  <p></p>
+
+
+    <!-- Page Header -->
+    <header class="masthead" style="height:190px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="post-heading">
+                <h1>{{ post.title }}</h1>
+                <h2 class="subheading">{{ post.subtitle }}</h2>
+                <span class="meta">Posted by
+                  {{ post.author }}
+                  on {{ post.date_posted.strftime('%B %d, %Y') }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <!-- Post Content -->
+      <article>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              {{ post.content|safe }}
+            </div>
+          </div>
+        </div>
+      </article>
+
+  </section>
+  <!-- Blog Ends -->
+{% endblock content %}
