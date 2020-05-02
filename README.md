@@ -22,7 +22,7 @@
 |Page 3: Practitioners          | Engramar         | To do       |
 |Page 4: Testimonials           | Engramar         | Done        |
 |Page 5: Events                 | Julia            | To do       |
-|Page 6: Blog                   | Engramar         | In progress |
+|Page 6: Blog                   | Engramar         | Done        |
 |Page 7: Reiki FAQs             | Engramar         | Done        |
 |Page 8: About                  | Engramar         | Done        |
 |Page 9: Contact                | Engramar         | Done        |
@@ -47,7 +47,8 @@
 | 25 Apr 2020   | Julia started working on the Home page                         |Julia   |
 | 28 Apr 2020   | Enhancements in About page                                     |Engramar|
 | 28 Apr 2020   | Ovatu integration                                              |Engramar|
-| 30 Apr 2020   | Blog page development                                          |Engramar|
+| 30 Apr 2020   | Blog page development commenced                                |Engramar|
+| 2  May 2020   | Blog entries CRUD(Create/Read/Update/Delete)                   |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
