@@ -9,7 +9,7 @@
 [Click this to see the Website Content Document Location](https://drive.google.com/file/d/1WEFu9kTbXuF4rlGH-KcS2i7Ea_KDDrT4/view?usp=sharing)
 
 #### A.3 Website Fonts and Colours (Provided by SolReiki)
-[Click this to see the Website Content Document Location](https://github.com/codesydney/solreiki/wiki/SolReiki's-suggested-fonts-and-colours-for-the-website)
+[Click this to see the proposed Website Fonts and Colours](https://github.com/codesydney/solreiki/wiki/SolReiki's-suggested-fonts-and-colours-for-the-website)
 
 
 ## B. Task Assignments
