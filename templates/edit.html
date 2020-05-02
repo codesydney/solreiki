@@ -25,7 +25,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>Add Post</h1>
+              <h1>Edit Post</h1>
               <span class="subheading">You can create a blog post here.</span>
             </div>
           </div>
@@ -37,39 +37,48 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <form name="addForm" id="addForm" method="POST" action="{{ url_for('addpost') }}" novalidate>
+          <form name="addForm" id="addForm" method="POST" action="{{ url_for('editpost') }}" novalidate>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls">
+                <input type="hidden" class="form-control" placeholder="ID" name="id" id="id" value="{{ post.id }}" required data-validation-required-message="">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>      
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Title</label>
-                <input type="text" class="form-control" placeholder="Title" name="title" id="title" required data-validation-required-message="Please enter a title.">
+                <input type="text" class="form-control" placeholder="Title" name="title" id="title" value="{{ post.title }}" required data-validation-required-message="Please enter a title.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Subtitle</label>
-                <input type="text" class="form-control" placeholder="Subtitle" name="subtitle" id="subtitle" required data-validation-required-message="Please enter your email address.">
+                <input type="text" class="form-control" placeholder="Subtitle" name="subtitle" id="subtitle" value="{{ post.subtitle }}" required data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Author</label>
-                <input type="text" class="form-control" placeholder="Author" name="author" id="author" required data-validation-required-message="Please enter your phone number.">
+                <input type="text" class="form-control" placeholder="Author" name="author" id="author" value="{{ post.author }}" required data-validation-required-message="Please enter your phone number.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Blog Content</label>
-                <textarea rows="20" class="form-control" placeholder="Blog content" name="content" id="content" required data-validation-required-message="Please enter a message."></textarea>
+                <textarea rows="20" class="form-control" placeholder="Blog content" name="content" id="content" required data-validation-required-message="Please enter a message.">{{ post.content }}</textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-secondary" id="sendMessageButton">Submit</button>
+              <button type="submit" class="btn btn-secondary" id="updateButton" value="update" name="btn_submit">Submit</button>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-secondary" id="deleteButton" value="delete" name="btn_submit">Delete</button>
             </div>
           </form>
         </div>
@@ -79,3 +88,22 @@
   </section>
   <!-- Blog Ends -->
 {% endblock content %}
+
+
+if request.form['btn_submit'] == 'Update':
+new_description = request.form['description']
+con = get_db(flaskmysql)
+cur = con.cursor()
+cur.execute('update issues \
+                set issue_description = %s \
+              where issue_number = %s', (new_description, key))
+con.commit()
+return redirect(url_for('index'))
+
+if request.form['btn_submit'] == 'Delete':
+con = get_db(flaskmysql)
+cur = con.cursor()
+cur.execute('delete from issues \
+              where issue_number = %s', (key))
+con.commit()
+return redirect(url_for('index'))

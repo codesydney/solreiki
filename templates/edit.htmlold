@@ -25,8 +25,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>Add Post</h1>
-              <span class="subheading">You can create a blog post here.</span>
+              <h1>Edit Post</h1>
+              <span class="subheading">You can edit a blog post here.</span>
             </div>
           </div>
         </div>
@@ -37,32 +37,32 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <form name="addForm" id="addForm" method="POST" action="{{ url_for('addpost') }}" novalidate>
+          <form name="addForm" id="addForm" method="POST" action="{{ url_for('editpost, post_id=post.id') }}" novalidate>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Title</label>
-                <input type="text" class="form-control" placeholder="Title" name="title" id="title" required data-validation-required-message="Please enter a title.">
+                <input type="text" class="form-control" placeholder="Title" name="title" id="title" value="{{ post.title }}" required data-validation-required-message="Please enter a title.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Subtitle</label>
-                <input type="text" class="form-control" placeholder="Subtitle" name="subtitle" id="subtitle" required data-validation-required-message="Please enter your email address.">
+                <input type="text" class="form-control" placeholder="Subtitle" name="subtitle" id="subtitle" value="{{ post.subtitle }}" required data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group col-xs-12 floating-label-form-group controls">
                 <label>Author</label>
-                <input type="text" class="form-control" placeholder="Author" name="author" id="author" required data-validation-required-message="Please enter your phone number.">
+                <input type="text" class="form-control" placeholder="Author" name="author" id="author" value="{{ post.author }}" required data-validation-required-message="Please enter your phone number.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label>Blog Content</label>
-                <textarea rows="20" class="form-control" placeholder="Blog content" name="content" id="content" required data-validation-required-message="Please enter a message."></textarea>
+                <textarea id="myTextarea" rows="20" class="form-control" placeholder="Blog content" name="content" id="content" required data-validation-required-message="Please enter a message.">{{ post.content }}</textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>

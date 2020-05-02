@@ -25,7 +25,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
             {% for post in posts %}
                 <div class="post-preview">
-                    <a href="{{ url_for('post', post_id=post.id) }}">
+                    <a href="{{ url_for('edit', post_id=post.id) }}">
                         <h2 class="post-title">
                         {{ post.title }}
                         </h2>
@@ -39,8 +39,8 @@
             {% endfor %}
             </div>
         </div>
+        <a class="btn btn-dark action-button" role="button" href="{{ url_for('add') }}">Add new post</a>
     </div> 
-
   </section>
   <!-- Blog Ends -->
 {% endblock content %}
