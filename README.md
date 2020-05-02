@@ -4,6 +4,15 @@
 #### A.1 Wireframe (Provided by SolReiki) and Task Assignments
 [Click this to see the Wireframe](https://github.com/codesydney/solreiki/wiki/SolReiki-Wireframe)
 <br/>
+
+#### A.2 Website Content (Provided by SolReiki)
+[Click this to see the Website Content Document Location](https://drive.google.com/file/d/1WEFu9kTbXuF4rlGH-KcS2i7Ea_KDDrT4/view?usp=sharing)
+
+#### A.3 Website Fonts and Colours (Provided by SolReiki)
+[Click this to see the Website Content Document Location](https://github.com/codesydney/solreiki/wiki/SolReiki's-suggested-fonts-and-colours-for-the-website)
+
+
+## B. Task Assignments
 | Task                          | Who              |Status       |
 | ----------------------------- |:-----------------|--------------
 |Page 1: Home                   | Julia            | In progress |
@@ -18,10 +27,7 @@
 |Page 8: About                  | Engramar         | Done        |
 |Page 9: Contact                | Engramar         | Done        |
 
-#### A.2 Website Content (Provided by SolReiki)
-[Click this to see the Website Content Document Location](https://drive.google.com/file/d/1WEFu9kTbXuF4rlGH-KcS2i7Ea_KDDrT4/view?usp=sharing)
-
-## B. Project Status
+## C. Project Status
 | Date          | What                                                           |Who|
 | ------------- |:---------------------------------------------------------------|---|
 | 2 Apr 2020    | Project KickOff Meeting                                        |Project Team|
@@ -43,5 +49,5 @@
 | 28 Apr 2020   | Ovatu integration                                              |Engramar|
 | 30 Apr 2020   | Blog page development                                          |Engramar|
 
-## C. Live Prototype (Work in progress)
+## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
