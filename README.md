@@ -19,7 +19,7 @@
 |Page 1.1: COVID-19 Pop up      | Julia            | In progress |
 |Page 1.2: Home - Text Section  | Julia            | In progress |
 |Page 2: Treatments             | Engramar         | Done        |
-|Page 3: Practitioners          | Engramar         | To do       |
+|Page 3: Practitioners          | Engramar         | Done        |
 |Page 4: Testimonials           | Engramar         | Done        |
 |Page 5: Events                 | Julia            | To do       |
 |Page 6: Blog                   | Engramar         | Done        |
@@ -52,3 +52,15 @@
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
+
+## E. Meeting Action Items
+#### E.1 Wireframe (Provided by SolReiki) and Task Assignments
+[X] We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated
+[ ] Proceed on applying the fonts and colours as proposed  
+[ ] Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
+[X] Understand how to customise the look-and-feel of an Ovatu wireframe
+[ ] Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
+[X] Check Ovatu CTA(call to action) for practitioners
+[ ] Check the inclusion of videos/images on the blog content editing when using a markup language.
+[ ] Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+[X] As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.
