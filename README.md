@@ -19,9 +19,9 @@
 |Page 1.1: COVID-19 Pop up      | Julia            | In progress |
 |Page 1.2: Home - Text Section  | Julia            | In progress |
 |Page 2: Treatments             | Engramar         | Done        |
-|Page 3: Practitioners          | Engramar         | Done        |
+|Page 3: Events                 | Engramar         | Done        |
 |Page 4: Testimonials           | Engramar         | Done        |
-|Page 5: Events                 | Julia            | To do       |
+|Page 5: Events                 | Engramar         | Done        |
 |Page 6: Blog                   | Engramar         | Done        |
 |Page 7: Reiki FAQs             | Engramar         | Done        |
 |Page 8: About                  | Engramar         | Done        |
@@ -49,27 +49,30 @@
 | 28 Apr 2020   | Ovatu integration                                              |Engramar|
 | 30 Apr 2020   | Blog page development commenced                                |Engramar|
 | 2  May 2020   | Blog entries CRUD(Create/Read/Update/Delete)                   |Engramar|
+| 2  May 2020   | Blog entries CRUD(Create/Read/Update/Delete)                   |Engramar|
+| 5  May 2020   | Practitioners Page development                                 |Engramar|
+| 7  May 2020   | Events Page development                                        |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
 
 ## E. Meeting Action Items
-#### E.1 Wireframe (Provided by SolReiki) and Task Assignments
-[X] We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated
+#### E.1 Meeting held on Sunday 3rd May
+<s>We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated</s>
 <br/>
-[ ] Proceed on applying the fonts and colours as proposed  
+Proceed on applying the fonts and colours as proposed
 <br/>
-[ ] Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
+Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
 <br/>
-[X] Understand how to customise the look-and-feel of an Ovatu wireframe
+<s>Understand how to customise the look-and-feel of an Ovatu wireframe</s>
 <br/>
-[ ] Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
+Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
 <br/>
-[X] Check Ovatu CTA(call to action) for practitioners
+<s>Check Ovatu CTA(call to action) for Events</s>
 <br/>
-[ ] Check the inclusion of videos/images on the blog content editing when using a markup language.
+Check the inclusion of videos/images on the blog content editing when using a markup language.
 <br/>
-[ ] Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
 <br/>
-[X] As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.
+<s>As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.</s>
 <br/>
