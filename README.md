@@ -52,6 +52,7 @@
 | 2  May 2020   | Blog entries CRUD(Create/Read/Update/Delete)                   |Engramar|
 | 5  May 2020   | Practitioners Page development                                 |Engramar|
 | 7  May 2020   | Events Page development                                        |Engramar|
+| 9  May 2020   | Provision of Admin Login                                       |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
@@ -70,7 +71,7 @@ Change FAQs page by including an accordion-type of display for each section and 
 <br/>
 <s>Check Ovatu CTA(call to action) for Events</s>
 <br/>
-Check the inclusion of videos/images on the blog content editing when using a markup language.
+<s>Check the inclusion of videos/images on the blog content editing when using a markup language.</s>
 <br/>
 Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
 <br/>
