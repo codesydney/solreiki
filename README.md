@@ -13,19 +13,19 @@
 
 
 ## B. Task Assignments
-| Task                          | Who              |Status       |
-| ----------------------------- |:-----------------|--------------
-|Page 1: Home                   | Julia            | In progress |
-|Page 1.1: COVID-19 Pop up      | Julia            | In progress |
-|Page 1.2: Home - Text Section  | Julia            | In progress |
-|Page 2: Treatments             | Engramar         | Done        |
-|Page 3: Events                 | Engramar         | Done        |
-|Page 4: Testimonials           | Engramar         | Done        |
-|Page 5: Events                 | Engramar         | Done        |
-|Page 6: Blog                   | Engramar         | Done        |
-|Page 7: Reiki FAQs             | Engramar         | Done        |
-|Page 8: About                  | Engramar         | Done        |
-|Page 9: Contact                | Engramar         | Done        |
+| Task                          | Who              |Status        |
+| ----------------------------- |:-----------------|---------------
+|Page 1: Home                   | Julia            | In progress  |
+|Page 1.1: COVID-19 Pop up      | Julia            | Out of Scope |
+|Page 1.2: Home - Text Section  | Julia            | In progress  |
+|Page 2: Treatments             | Engramar         | Done         |
+|Page 3: Events                 | Engramar         | Done         |
+|Page 4: Testimonials           | Engramar         | Done         |
+|Page 5: Events                 | Engramar         | Done         |
+|Page 6: Blog                   | Engramar         | Done         |
+|Page 7: Reiki FAQs             | Engramar         | Done         |
+|Page 8: About                  | Engramar         | Done         |
+|Page 9: Contact                | Engramar         | Done         |
 
 ## C. Project Status
 | Date          | What                                                           |Who|
@@ -53,27 +53,28 @@
 | 5  May 2020   | Practitioners Page development                                 |Engramar|
 | 7  May 2020   | Events Page development                                        |Engramar|
 | 9  May 2020   | Provision of Admin Login                                       |Engramar|
+| 10 May 2020   | Use Accordion in FAQs                                          |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
 
 ## E. Meeting Action Items
 #### E.1 Meeting held on Sunday 3rd May
-<s>We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated</s>
+<s> - We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated</s>
 <br/>
-Proceed on applying the fonts and colours as proposed
+ - Proceed on applying the fonts and colours as proposed
 <br/>
-Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
+ - Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
 <br/>
-<s>Understand how to customise the look-and-feel of an Ovatu wireframe</s>
+<s> - Understand how to customise the look-and-feel of an Ovatu wireframe</s>
 <br/>
-Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
+ - Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
 <br/>
-<s>Check Ovatu CTA(call to action) for Events</s>
+<s> - Check Ovatu CTA(call to action) for Events</s>
 <br/>
-<s>Check the inclusion of videos/images on the blog content editing when using a markup language.</s>
+<s> - Check the inclusion of videos/images on the blog content editing when using a markup language.</s>
 <br/>
-Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+ - Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
 <br/>
-<s>As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.</s>
+<s> - As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.</s>
 <br/>
