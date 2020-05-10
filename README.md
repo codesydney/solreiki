@@ -60,15 +60,11 @@
 
 ## E. Meeting Action Items
 #### E.1 Meeting held on Sunday 3rd May
-<s> - We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated</s>
-<br/>
- - Proceed on applying the fonts and colours as proposed
-<br/>
  - Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
 <br/>
 <s> - Understand how to customise the look-and-feel of an Ovatu wireframe</s>
 <br/>
- - Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar
+<s> - Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar </s>
 <br/>
 <s> - Check Ovatu CTA(call to action) for Events</s>
 <br/>
@@ -78,3 +74,5 @@
 <br/>
 <s> - As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.</s>
 <br/>
+ - Proceed on applying the fonts and colours as proposed
+ <s> - We discussed Code.Sydney's interest for SolReiki to have full control of their content by providing the option to manage their blog entries themselves and more importantly manage products/services from Ovatu. In both cases, dependency on developers is eliminated</s>
