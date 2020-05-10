@@ -65,6 +65,8 @@
 <br/>
  - Proceed on applying the fonts and colours as proposed
 <br/>
+ - Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+<br/>
 <s> - Understand how to customise the look-and-feel of an Ovatu wireframe</s>
 <br/>
 <s> - Change FAQs page by including an accordion-type of display for each section and removing submenus from the navbar </s>
@@ -72,8 +74,6 @@
 <s> - Check Ovatu CTA(call to action) for Events</s>
 <br/>
 <s> - Check the inclusion of videos/images on the blog content editing when using a markup language.</s>
-<br/>
- - Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
 <br/>
 <s> - As agreed, any future Code.Sydney meeting request will be booked via https://www.code.sydney/contact.</s>
 <br/>
