@@ -53,6 +53,7 @@
 | 5  May 2020   | Practitioners Page development                                 |Engramar|
 | 7  May 2020   | Events Page development                                        |Engramar|
 | 9  May 2020   | Provision of Admin Login                                       |Engramar|
+| 10 May 2020   | Started applying suggested fonts and colours                   |Youngju |
 | 10 May 2020   | Use Accordion in FAQs                                          |Engramar|
 
 ## D. Live Prototype (Work in progress)
