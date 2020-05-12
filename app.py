@@ -4,9 +4,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/solreiki/solreiki/blog.db'
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/engramarbollas/Projects/solreiki/blog.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\YJ files\\coding\\solreiki\\blog.db'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/solreiki/solreiki/blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\YJ files\\coding\\solreiki\\blog.dbb'
 
 db = SQLAlchemy(app)
 
@@ -92,6 +91,19 @@ def editpost():
         Blogpost.query.filter_by(id=post_id).delete()
         db.session.commit()
     return redirect(url_for('blogeditable'))
+
+@app.route('/adminlogin', methods=['GET', 'POST'])
+def adminlogin():
+    error = None
+    if request.method == 'POST':
+        password = request.form['password']
+        if (password == "123456"):
+            return redirect(url_for('blogeditable'))
+        else: 
+            error = "Incorrect password. Please try again."
+            return render_template('adminlogin.html', error=error)
+    else:
+        return render_template('adminlogin.html', error=error)
 
 @app.route('/faqs', methods=['GET', 'POST'])
 def faqs():

@@ -1,71 +1,101 @@
 {% extends 'layout.html' %}
 {% block content %}
   <!-- Treatments -->
-  <section id="treatments">
-    <div></div>
-    <div class="article-clean">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                  <div class="intro">
-                      <h1 class="text-center">Treatments</h1>
+  <section id="Treatments">
+    <div class="container">
+
+        <div></div>
+        <div class="article-clean">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                      <div class="intro">
+                          <h1 class="text-center">Treatments</h1>
+                      </div>
+                      <div class="text"></div>
                   </div>
-              <div class="text"></div>
-           </div>
+              </div>
+          </div>
         </div>
-     </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-12 col-xl-12 offset-xl-0">
+                <div class="card shadow mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4 text-center"><img class="img-fluid border rounded shadow" src="static/img/dip-your-toes.jpg"></div>
+                            <div class="col">
+                                <p class="mt-2"><strong>Dip Your Toes</strong></p>
+                                <p class="mt-2">
+                                    A short reiki taster. Leave with your batteries recharged and your body relaxed like never before.
+                                    <br/>
+                                    <br/>
+                                    $35
+                                </p>
+                                <div class="row">
+                                    <div class="col"><button onclick="window.open('https://codesydney.book.app/book-now/service/561687', '_blank')" class="btn btn-outline-dark btn-block" type="submit">Book now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-12 col-xl-12 offset-xl-0">
+                <div class="card shadow mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4 text-center"><img class="img-fluid border rounded shadow" src="static/img/lets-wade-in.jpg"></div>
+                            <div class="col">
+                                <p class="mt-2"><strong>Let's Wade In</strong></p>
+                                <p class="mt-2">
+                                    Treat yourself to the blissful relaxation and gentle healing of a full reiki treatment. Experience the relief of a calm nervous system, re-balanced emotions and release from mental tensions. Work on a specific issue or have a general, whole-body energy cleanse. Bask in calm clarity for the rest of your day and sleep like a baby!
+                                    <br/>
+                                    <br/>
+                                    $88
+                                </p>
+                                <div class="row">
+                                    <div class="col"><button onclick="window.open('https://codesydney.book.app/book-now/service/561689', '_blank')" class="btn btn-outline-dark btn-block" type="submit">Book now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-12 col-xl-12 offset-xl-0">
+                <div class="card shadow mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4 text-center"><img class="img-fluid border rounded shadow" src="static/img/deep-in-dive.jpg"></div>
+                            <div class="col">
+                                <p class="mt-2"><strong>Deep In Dive</strong></p>
+                                <p class="mt-2">
+                                    Deepen the healing experience with ongoing support from your qualified, intuitive healer to:
+                                    <br/>
+                                    -help overcome stress, anxiety and depression 
+                                    -support healing during Western medical treatments
+                                    -work deeply with chronic imbalances of the body, mind, heart and spirit
+                                    -improve all areas of your life through a journey of self-discovery.
+                                    <br/>
+                                    <br/>
+                                    $333
+                                </p>
+                                <div class="row">
+                                    <div class="col"><button onclick="window.open('https://codesydney.book.app/book-now/service/561690', '_blank')" class="btn btn-outline-dark btn-block" type="submit">Book now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <div class="treatments-clean">
-      <div id="bookapp-reservation-widget" />
-      <script type="text/javascript">
-
-        ! function(e, t, n) {
-            var u = n.queue || [];
-            e.BookAppWidgetReady = n = function(e) {
-                n.queue.push(e)
-            }, n.queue = u;
-            var o = "script",
-                a = t.createElement(o),
-                i = t.getElementsByTagName(o)[0];
-            a.src = "https://cdn.book.app/embed/v1.js", a.type = "text/javascript", a.async = !0, a.addEventListener("load", function() {
-                for (; n.queue.length;) n.queue.shift()()
-            }, !1), i.parentNode.insertBefore(a, i)
-        }(window, document, window.BookAppWidgetReady || function() {});
-        BookAppWidgetReady(function() {
-            BookApp.widget('#bookapp-reservation-widget', 'codesydney');
-        });
-
-    </script>
-
-      <!--
-      <script src="//simplybook.me/v2/widget/widget.js"></script>
-      <script>
-        var widget = new SimplybookWidget({
-            "widget_type": "iframe",
-            "url": "https:\/\/codesydney.simplybook.me",
-            "theme": "space",
-            "theme_settings": {
-                "sb_base_color": "#b2c2a8",
-                "timeline_show_end_time": "0",
-                "timeline_modern_display": "as_slots",
-                "display_item_mode": "block",
-                "dark_font_color": "#474747",
-                "light_font_color": "#ffffff",
-                "sb_company_label_color": "#ffffff",
-                "hide_img_mode": "0",
-                "show_sidebar": "0",
-                "sb_busy": "#f2e0dc",
-                "sb_available": "#e0e6dd"
-            },
-            "timeline": "modern_week",
-            "datepicker": "top_calendar",
-            "is_rtl": false,
-            "app_config": {
-                "predefined": []
-            }
-        }); 
-      </script>
-       -->
-    </div>
-  <!-- Treatment Ends -->
+  </section>
+  <!-- Treatments Ends -->
 {% endblock content %}

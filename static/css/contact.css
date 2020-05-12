@@ -1,11 +1,16 @@
-.article-clean h1 {
+.article-clean {
+  background-color: rgba(255, 249, 224, 0.7);
+}
+
+.article-clean .intro h1 {
   font-family: "Open Sans";
   font-weight: 800;
-  color: #96815f;
+  color: #c9e265;
+  text-transform: uppercase;
 }
 
 .contact-clean {
-  background: #eef4f7;
+  background-color:rgba(255, 249, 224, 0.7);
   padding: 80px 0;
 }
 
@@ -22,7 +27,7 @@
   background-color: #ffffff;
   padding: 40px;
   border-radius: 4px;
-  color: #a79a95;
+  color: #96815f;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
   font-family: "Open Sans";
 }
@@ -92,8 +97,7 @@
 }
 
 .contact-clean form .btn-primary {
-  background-color: #8ca17e !important;
+  background-color:	#21473d !important;
   margin-top: 15px;
   color: #ffffff;
 }
-
