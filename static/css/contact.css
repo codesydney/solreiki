@@ -1,5 +1,5 @@
 .article-clean {
-  background-color: #FBFBF3;
+  background-color: #FFFCEC;
 } 
 
 .article-clean .intro h1 {
@@ -9,7 +9,7 @@
 }
 
 .contact-clean {
-  background-color: #FBFBF3;
+  background-color: #FFFCEC;
   padding: 80px 0;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .contact-clean form .btn-primary {
-  background-color:	#21473d !important;
+  background-color:	#D1CBC9 !important;
   margin-top: 15px;
-  color: #ffffff;
+  color: #96815F;
 }
