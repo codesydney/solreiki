@@ -1,19 +1,19 @@
 .site {
   font-family: 'Playfair Display', serif !important;  
-  background-color:  #FBFBF3;
+  background-color:  #FFFCEC;
 }
 
 /* Nav bar colours */
 ul.nav li a, ul.nav li a:visited {
-  color:  #96815F !important;
+  color: #fafcef !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-  color:  #96815F !important;
+  color: #fafcef !important;
 }
 
 ul.nav li.active a {
-  color:  #96815F !important;
+  color: #fafcef !important;
 }
 
 #sticky-footer {

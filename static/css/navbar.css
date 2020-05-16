@@ -1,5 +1,5 @@
 .navigation-clean-button {
-  background: #FBFBF3;
+  background: #A2968A;
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #fff;
@@ -23,7 +23,7 @@
 }
 
 .navigation-clean-button .navbar-brand:hover {
-  color: #96ac42e8;
+  color: #d0e96f;
 }
 
 .navigation-clean-button.navbar-dark .navbar-brand:hover {
@@ -178,7 +178,7 @@
 }
 
 .navigation-clean-button .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button:hover {
-  background: #D1CBC9;
+  background: #c9e265;
   border-radius: 25px;
   font-size: inherit;
   color: #96815F;
@@ -191,7 +191,7 @@
 }
 
 .navigation-clean-button .navbar-text .action-button:hover {
-  background: #ddd9d8;
+  background: #d0e96f;
 }
 
 .navigation-clean-button.navbar-dark .action-button, .navigation-clean-button.navbar-dark .action-button:active {

@@ -1,7 +1,7 @@
 .footer-basic {
   padding: 40px 0;
-  background-color: #FBFBF3 !important;
-  color: #96815F;
+  background-color: #A2968A!important;
+  color: #fafcef;
   flex-shrink: none;
 }
 
@@ -31,7 +31,7 @@
 .footer-basic .social {
   text-align: center;
   padding-bottom: 25px;
-  color: #96815F !important;
+  color: #fafcef !important;
 }
 
 .footer-basic .social > a {
@@ -56,10 +56,10 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #96815F !important;
+  color: #fafcef !important;
   margin-bottom: 0;
 }
 
 .footer-basic .copyright > a {
-  color: #96815F !important;
+  color: #fafcef !important;
 }
