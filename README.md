@@ -55,6 +55,7 @@
 | 9  May 2020   | Provision of Admin Login                                       |Engramar|
 | 10 May 2020   | Started applying suggested fonts and colours                   |Youngju |
 | 10 May 2020   | Use Accordion in FAQs                                          |Engramar|
+| 17 May 2020   | Initial Homepage prototype                                     |Julia|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
