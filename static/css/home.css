@@ -1,10 +1,97 @@
-.home-clean {
-  background: #eef4f7;
-  padding: 80px 0;
+
+.container-top {
+display: flex;
+flex-wrap: wrap;
+background-image: url("/static/img/home-sun.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-@media (max-width:767px) {
+.circle {
+  z-index: -1;
+  position: absolute;
+  margin: 0px;
+  width: 400px;
+  height: auto;
+}
+
+.large-text {
+  z-index: 1;
+  width: 40%;
+  height: 500px;
+  padding: 60px;
+  margin: auto;
+  color: #212529;
+}
+
+.large-text>h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+}
+
+.large-text>h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 60px;
+  width: 300px;
+}
+
+.text-box-left {
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  width: 40%;
+  height: 500px;
+  background: #ffffff;
+  margin: 80px 20px;
+  padding: 60px;
+  box-shadow: 5px 10px 18px #252525;
+  border: 0px solid #888888;
+  border-radius: 5px;
+}
+
+.read-more-button {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #343a40;
+  border-radius: 0.25rem;
+  padding: 5px 20px;
+  float: right;
+  margin: 10px;
+}
+
+.read-more-button:hover {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.container-middle {
+  display: flex;
+  flex-wrap: wrap;
+  height: 750px;
+  background-color: #eef4f7;
+}
+
+.container-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  background-image: url("/static/img/stone2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width:950px) {
   .home-clean {
     padding: 20px 0;
+  }
+  .large-text {
+    width: 80%;
+    height: auto;
+    margin: 40px;
+    padding: 0px;
+  }
+  .text-box-left {
+    width: 80%;
+    height: auto;
+    margin: 40px;
   }
 }
