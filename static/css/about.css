@@ -3,7 +3,8 @@
 }
 
 .features-clean .carousel {
-  background-color: #ffeb9e;
+  /*background-color: #ffeb9e;*/
+  background-color: #ddd4b0;
   /* height: 400px; */
 }
 
@@ -18,7 +19,7 @@
 }
 
 #carousel .text-box {
-  background-color: #ffeb9e !important;
+  background-color: #ddd4b0 !important;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 32px;
@@ -26,8 +27,8 @@
 
 #carousel .text-box h2 {
   color: #96815f;
-  font-weight: bold;
-  font-size: 37px;
+  /* font-weight: bold; */
+  font-size: 30px;
 }
 
 #carousel .text-box .description {
@@ -43,7 +44,7 @@
   }
 
   #carousel .text-box h2 {
-    font-size: 34px;
+    font-size: 30px;
   }
   
   #carousel .text-box .description {
@@ -80,13 +81,14 @@
 }
 
 .team-boxed h2 {
-  color: #c9e265 !important;
+  /*color: #c9e265 !important;*/
+  color: #b3ab8f !important;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
   padding-left: 50px;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800 !important;
   width: 50%;
 }
@@ -133,14 +135,14 @@
 .team-boxed .box {
   text-align: left;
   padding: 30px;
-  background-color: #fff;
+  background-color: #FFF;
   margin-bottom: 30px;
 }
 
 #box-2 {
-  background-color: #aaafa7 !important;
+  background-color: #FFF !important;
 }
 
 #box-3 {
-  background-color: #b5d4a6 !important;
+  background-color: #FFF !important;
 }

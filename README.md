@@ -56,6 +56,7 @@
 | 10 May 2020   | Started applying suggested fonts and colours                   |Youngju |
 | 10 May 2020   | Use Accordion in FAQs                                          |Engramar|
 | 17 May 2020   | Initial Homepage prototype                                     |Julia|
+| 27 May 2020   | Modify Look-and-feel                                           |Youngju|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
@@ -65,9 +66,9 @@
 <br/>
  - Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
 <br/>
- - Proceed on applying the fonts and colours as proposed
-<br/>
  - Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+<br/>
+<s> - Proceed on applying the fonts and colours as proposed </s>
 <br/>
 <s> - Understand how to customise the look-and-feel of an Ovatu wireframe</s>
 <br/>

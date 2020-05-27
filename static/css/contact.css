@@ -5,7 +5,7 @@
 .article-clean .intro h1 {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 800;
-  color: #c9e265;
+  color: rgb(97, 90, 81);
 }
 
 .contact-clean {
@@ -28,7 +28,7 @@
   border-radius: 4px;
   color: #96815f;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 @media (max-width:767px) {
@@ -38,7 +38,7 @@
 }
 
 .contact-clean h2 {
-  font-family: inherit;
+  font-family: "Open Sans", Arial, sans-serif;
   margin-top: 5px;
   font-weight: 800;
   font-size: 28px;
@@ -58,7 +58,7 @@
   color: inherit;
   padding-left: 12px;
   height: 42px;
-  font-family: inherit;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .contact-clean form .form-control:focus {
