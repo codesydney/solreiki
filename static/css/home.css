@@ -5,6 +5,7 @@ flex-wrap: wrap;
 background-image: url("/static/img/home-sun.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+font-family: "Open Sans", Arial, sans-serif;
 }
 
 .circle {
@@ -25,8 +26,9 @@ background-size: cover;
 }
 
 .large-text>h1 {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   font-size: 100px;
+  color: #b5ce50;
 }
 
 .large-text>h2 {
@@ -68,6 +70,7 @@ background-size: cover;
   flex-wrap: wrap;
   height: 750px;
   background-color: #eef4f7;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .container-bottom {

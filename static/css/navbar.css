@@ -1,5 +1,5 @@
 .navigation-clean-button {
-  background: #a7b69f;
+  background: #A2968A;
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #fff;
@@ -7,6 +7,7 @@
   box-shadow: none;
   border: none;
   margin-bottom: 0;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 @media (min-width:768px) {
@@ -18,11 +19,11 @@
 
 .navigation-clean-button .navbar-brand {
   font-size: 20px;
-  color: inherit;
+  color: #c9e265;
 }
 
 .navigation-clean-button .navbar-brand:hover {
-  color: #f0f0f0;
+  color: #d0e96f;
 }
 
 .navigation-clean-button.navbar-dark .navbar-brand:hover {
@@ -86,7 +87,7 @@
 }
 
 .navigation-clean-button.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-button.navbar-light .navbar-nav .nav-link:hover {
-  color: #37434d !important;
+  color: rgb(58, 49, 34) !important;
   background-color: transparent;
 }
 
@@ -177,10 +178,10 @@
 }
 
 .navigation-clean-button .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button:hover {
-  background: #899b8d;
+  background: #c9e265;
   border-radius: 25px;
   font-size: inherit;
-  color: #fff;
+  color: #96815F;
   box-shadow: none;
   border: none;
   text-shadow: none;
@@ -190,7 +191,7 @@
 }
 
 .navigation-clean-button .navbar-text .action-button:hover {
-  background: #c7d3c7;
+  background: #d0e96f;
 }
 
 .navigation-clean-button.navbar-dark .action-button, .navigation-clean-button.navbar-dark .action-button:active {
