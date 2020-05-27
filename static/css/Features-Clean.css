@@ -1,7 +1,8 @@
 .features-clean {
   color: #313437;
-  background-color: #eef4f7;
+  background-color: #FFFCEC;
   padding-bottom: 10px;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 @media (max-width:767px) {
@@ -14,15 +15,16 @@
   color: #7d8285;
 }
 
-.features-clean h2 {
+.features-clean h3 {
   /*font-weight: bold;*/
   margin-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 35px;
   color: inherit;
+  text-align: center;
 }
 
 @media (max-width:767px) {
-  .features-clean h2 {
+  .features-clean h3 {
     margin-bottom: 25px;
     padding-top: 25px;
     font-size: 24px;
@@ -81,3 +83,6 @@
   margin-left: -65px;
 }
 
+.features-clean .row {
+  background-color: #f5f0d4 !important;
+}
