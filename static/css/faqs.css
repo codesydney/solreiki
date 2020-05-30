@@ -81,3 +81,7 @@
   max-width: 100%;
 }
 
+.card {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #96815f;
+}

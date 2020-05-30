@@ -6,7 +6,7 @@
 .treatments-clean h2 {
   font-weight: bold;
   padding-top: 50px;
-  color: #505e6c;
+  color: hsl(210, 15%, 37%);
   font-size: 30px;
 }
 
@@ -14,4 +14,16 @@
   .treatments-clean {
     padding: 20px 0;
   }
+}
+
+.card-body {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #96815f;
+  font-size: 18px;
+}
+
+.card-heading {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #96815f;
+  font-size: 23px;
 }

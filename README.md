@@ -58,6 +58,7 @@
 | 17 May 2020   | Initial Homepage prototype                                     |Julia|
 | 27 May 2020   | Modify Look-and-feel                                           |Youngju|
 | 30 May 2020   | Finalise look-and-feel of blog CRUD                            |Engramar|
+| 30 May 2020   | Finalise Treatments, Practitioners, Testimonials, Events pages |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
