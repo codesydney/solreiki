@@ -3,6 +3,7 @@
 ## A. Requirements Specification
 #### A.1 Wireframe (Provided by SolReiki) and Task Assignments
 [Click this to see the Wireframe](https://github.com/codesydney/solreiki/wiki/SolReiki-Wireframe)
+[Updated Requirements 23 June 2020](https://docs.google.com/document/d/1Bxm2frwmweNtTJetwqzyHC52R0s6ikTzSvX4S9E5xrA/edit)
 <br/>
 
 #### A.2 Website Content (Provided by SolReiki)
@@ -59,6 +60,7 @@
 | 27 May 2020   | Modify Look-and-feel                                           |Youngju|
 | 30 May 2020   | Finalise look-and-feel of blog CRUD                            |Engramar|
 | 30 May 2020   | Finalise Treatments, Practitioners, Testimonials, Events pages |Engramar|
+| 23 June 2020  | Adam provided updated requirements                             |Engramar|
 
 ## D. Live Prototype (Work in progress)
 [http://solreiki.pythonanywhere.com/](http://solreiki.pythonanywhere.com/)
