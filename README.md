@@ -69,9 +69,9 @@
 ## E. Meeting Action Items
 #### E.1 Meeting held on Sunday 3rd May
 <br/>
- - Include placeholder footage on the homepage to showcase the capability of including a raw video on the page
-<br/>
  - Adam/Nid/Adele to signup to Ovatu and start familiarising themselves to its features.
+<br/>
+<s> - Include placeholder footage on the homepage to showcase the capability of including a raw video on the page </s>
 <br/>
 <s> - Proceed on applying the fonts and colours as proposed </s>
 <br/>
