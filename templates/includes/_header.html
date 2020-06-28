@@ -1,19 +1,19 @@
 <header>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="{{ url_for('index') }}">SolReiki</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('treatments') }}">Treatments</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('practitioners') }}">Practitioners</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('testimonials') }}">Testimonials</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('events') }}">Events</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('blog') }}">Blog</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
-                </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="{{ url_for('treatments') }}">Book now</a></span></div>
-        </div>
-    </nav>
+    <div class="nav-container d-flex justify-content-center">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url_for('index') }}">SolReiki</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('treatments') }}">Treatments</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('testimonials') }}">Testimonials</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('faqs') }}">Reiki FAQs</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
+                        </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="{{ url_for('treatments') }}">Book now</a></span>
+                    </div>
+            </div>
+        </nav>    
+    </div>
 </header>
