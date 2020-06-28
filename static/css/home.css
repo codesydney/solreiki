@@ -28,7 +28,7 @@ font-family: "Open Sans", Arial, sans-serif;
 .large-text>h1 {
   /* font-family: 'Playfair Display', serif; */
   font-size: 100px;
-  color: #b5ce50;
+  color:  #0f0f0d;
 }
 
 .large-text>h2 {
@@ -65,12 +65,20 @@ font-family: "Open Sans", Arial, sans-serif;
   color: #ffffff;
 }
 
-.container-middle {
-  display: flex;
-  flex-wrap: wrap;
-  height: 750px;
-  background-color: #eef4f7;
+.text-section {
   font-family: "Open Sans", Arial, sans-serif;
+  color: #8b795a;
+}
+.text-section img{
+ height: 75%;
+}
+
+.text-content h1 {
+  font-size: 60px;
+}
+
+.text-content p{
+  font-size: 25px;
 }
 
 .container-bottom {
